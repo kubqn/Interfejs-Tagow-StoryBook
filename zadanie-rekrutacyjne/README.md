@@ -1,30 +1,19 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Zadanie rekrutacyjne stworzone w Vite z wyborem React + TypeScript
 
-Currently, two official plugins are available:
+Aplikacja webowa umożliwia przeglądanie tagów udostępnianych przez API Stack Overflow. Możemy przeglądać tagi, sortować je oraz filtrować według różnych kryteriów.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Po sklonowaniu repozytorium na lokalny komputer, i przejściu do folderu zadanie-rekrutacyjne uruchamiamy go zgodnie z wytycznymi w zadaniu:
+npm ci
+npm start
 
-## Expanding the ESLint configuration
+oraz storybook:
+npm run storybook
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Do stworzenia aplikacji wykorzystano:
+React
+TypeScript
+Storybook
+Axios
+Material-ui
