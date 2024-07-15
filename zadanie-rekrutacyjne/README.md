@@ -1,7 +1,5 @@
 # React + TypeScript + Vite
 
-Zadanie rekrutacyjne stworzone w Vite z wyborem React + TypeScript
-
 Aplikacja webowa umożliwia przeglądanie tagów udostępnianych przez API Stack Overflow. Możemy przeglądać tagi, sortować je oraz filtrować według różnych kryteriów.
 
 Po sklonowaniu repozytorium na lokalny komputer, i przejściu do folderu zadanie-rekrutacyjne uruchamiamy go zgodnie z wytycznymi w zadaniu:\
